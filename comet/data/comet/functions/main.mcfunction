@@ -1,5 +1,5 @@
 # operation
-execute as @a[gamemode=survival] if data entity @s {SelectedItem:{tag:{wpstick:comet}}} if score @s wpstick matches 1 run scoreboard players operation @s tick %= @s dummy
+execute as @a if entity @s[gamemode=survival,scores={wpstick=1},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:1}}}] run scoreboard players operation @s tick %= @s dummy
 
 
 
@@ -36,6 +36,7 @@ execute as @a[gamemode=survival] if score @s tick matches 28 run scoreboard play
 execute as @a[gamemode=survival] if score @s tick matches 29 run scoreboard players set @s random 29
 execute as @a[gamemode=survival] if score @s tick matches 30 run scoreboard players set @s random 30
 execute as @a[gamemode=survival] if score @s tick matches 31 run scoreboard players set @s random 31
+execute as @a[gamemode=survival] if score @s tick matches 32 run scoreboard players set @s random 32
 
 execute as @a[gamemode=survival] if score @s random matches 0 run function comet:random/0
 execute as @a[gamemode=survival] if score @s random matches 1 run function comet:random/1
@@ -69,16 +70,17 @@ execute as @a[gamemode=survival] if score @s random matches 28 run function come
 execute as @a[gamemode=survival] if score @s random matches 29 run function comet:random/29
 execute as @a[gamemode=survival] if score @s random matches 30 run function comet:random/30
 execute as @a[gamemode=survival] if score @s random matches 31 run function comet:random/31
+execute as @a[gamemode=survival] if score @s random matches 32 run function comet:random/32
 
 
 # tick reset
-execute as @a[gamemode=survival] if data entity @s {SelectedItem:{tag:{wpstick:comet}}} if score @s wpstick matches 1 run scoreboard players set @s tick 99
+execute as @a if entity @s[gamemode=survival,scores={wpstick=1},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:1}}}] run scoreboard players set @s tick 99
 
 # notify
-execute as @a[gamemode=creative] if data entity @s {SelectedItem:{tag:{wpstick:comet}}} if score @s wpstick matches 1 run msg @s [warn] your creative mode!
+execute as @a if entity @s[gamemode=creative,scores={wpstick=1},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:1}}}] run msg @s [warn] your creative mode!
 
 # replace item
-execute as @a[gamemode=survival] if data entity @s {SelectedItem:{tag:{wpstick:comet}}} if score @s wpstick matches 1 run replaceitem entity @s weapon air
+execute as @a if entity @s[gamemode=survival,scores={wpstick=1},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:1}}}] run replaceitem entity @s weapon air
 
 # scoreboard actions
 scoreboard players set @a wpstick 0

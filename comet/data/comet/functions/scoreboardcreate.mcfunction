@@ -3,6 +3,4 @@ scoreboard objectives add tick dummy
 scoreboard objectives add random dummy
 scoreboard objectives add dummy dummy
 
-scoreboard players set @a tick 99
-scoreboard players set @a random 99
-scoreboard players set @a dummy 32
+schedule function comet:scoreboardset 1s

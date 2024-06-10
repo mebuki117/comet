@@ -1,0 +1,3 @@
+summon item ~ ~ ~ {Item:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"ミラクルコメット","color":"gold","bold":true,"italic":false}',Lore:['{"text":"使うと、いいことが起こるかも…？","color":"aqua","italic":false}']},CustomModelData:1}}}
+summon item ~ ~ ~ {Item:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"ミラクルコメット","color":"gold","bold":true,"italic":false}',Lore:['{"text":"使うと、いいことが起こるかも…？","color":"aqua","italic":false}']},CustomModelData:1}}}
+summon item ~ ~ ~ {Item:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"ミラクルコメット","color":"gold","bold":true,"italic":false}',Lore:['{"text":"使うと、いいことが起こるかも…？","color":"aqua","italic":false}']},CustomModelData:1}}}
