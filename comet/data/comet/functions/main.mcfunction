@@ -32,6 +32,10 @@ execute as @a[gamemode=survival] if score @s tick matches 24 run scoreboard play
 execute as @a[gamemode=survival] if score @s tick matches 25 run scoreboard players set @s random 25
 execute as @a[gamemode=survival] if score @s tick matches 26 run scoreboard players set @s random 26
 execute as @a[gamemode=survival] if score @s tick matches 27 run scoreboard players set @s random 27
+execute as @a[gamemode=survival] if score @s tick matches 28 run scoreboard players set @s random 28
+execute as @a[gamemode=survival] if score @s tick matches 29 run scoreboard players set @s random 29
+execute as @a[gamemode=survival] if score @s tick matches 30 run scoreboard players set @s random 30
+execute as @a[gamemode=survival] if score @s tick matches 31 run scoreboard players set @s random 31
 
 execute as @a[gamemode=survival] if score @s random matches 0 run function comet:random/0
 execute as @a[gamemode=survival] if score @s random matches 1 run function comet:random/1
@@ -61,6 +65,11 @@ execute as @a[gamemode=survival] if score @s random matches 24 run function come
 execute as @a[gamemode=survival] if score @s random matches 25 run function comet:random/25
 execute as @a[gamemode=survival] if score @s random matches 26 run function comet:random/26
 execute as @a[gamemode=survival] if score @s random matches 27 run function comet:random/27
+execute as @a[gamemode=survival] if score @s random matches 28 run function comet:random/28
+execute as @a[gamemode=survival] if score @s random matches 29 run function comet:random/29
+execute as @a[gamemode=survival] if score @s random matches 30 run function comet:random/30
+execute as @a[gamemode=survival] if score @s random matches 31 run function comet:random/31
+
 
 # tick reset
 execute as @a[gamemode=survival] if data entity @s {SelectedItem:{tag:{wpstick:comet}}} if score @s wpstick matches 1 run scoreboard players set @s tick 99
