@@ -2,8 +2,7 @@
 execute as @a[gamemode=survival] if data entity @s {SelectedItem:{tag:{wpstick:comet}}} if score @s wpstick matches 1 run scoreboard players operation @s tick %= @s dummy
 
 
-# replace item
-#execute as @a[gamemode=survival] if data entity @s {SelectedItem:{tag:{wpstick:comet}}} if score @s wpstick matches 1 run replaceitem entity @s weapon air
+
 
 execute as @a[gamemode=survival] if score @s tick matches 0 run scoreboard players set @s random 0
 execute as @a[gamemode=survival] if score @s tick matches 1 run scoreboard players set @s random 1
@@ -27,6 +26,12 @@ execute as @a[gamemode=survival] if score @s tick matches 18 run scoreboard play
 execute as @a[gamemode=survival] if score @s tick matches 19 run scoreboard players set @s random 19
 execute as @a[gamemode=survival] if score @s tick matches 20 run scoreboard players set @s random 20
 execute as @a[gamemode=survival] if score @s tick matches 21 run scoreboard players set @s random 21
+execute as @a[gamemode=survival] if score @s tick matches 22 run scoreboard players set @s random 22
+execute as @a[gamemode=survival] if score @s tick matches 23 run scoreboard players set @s random 23
+execute as @a[gamemode=survival] if score @s tick matches 24 run scoreboard players set @s random 24
+execute as @a[gamemode=survival] if score @s tick matches 25 run scoreboard players set @s random 25
+execute as @a[gamemode=survival] if score @s tick matches 26 run scoreboard players set @s random 26
+execute as @a[gamemode=survival] if score @s tick matches 27 run scoreboard players set @s random 27
 
 execute as @a[gamemode=survival] if score @s random matches 0 run function comet:random/0
 execute as @a[gamemode=survival] if score @s random matches 1 run function comet:random/1
@@ -50,12 +55,21 @@ execute as @a[gamemode=survival] if score @s random matches 18 run function come
 execute as @a[gamemode=survival] if score @s random matches 19 run function comet:random/19
 execute as @a[gamemode=survival] if score @s random matches 20 run function comet:random/20
 execute as @a[gamemode=survival] if score @s random matches 21 run function comet:random/21
+execute as @a[gamemode=survival] if score @s random matches 22 run function comet:random/22
+execute as @a[gamemode=survival] if score @s random matches 23 run function comet:random/23
+execute as @a[gamemode=survival] if score @s random matches 24 run function comet:random/24
+execute as @a[gamemode=survival] if score @s random matches 25 run function comet:random/25
+execute as @a[gamemode=survival] if score @s random matches 26 run function comet:random/26
+execute as @a[gamemode=survival] if score @s random matches 27 run function comet:random/27
 
-
+# tick reset
 execute as @a[gamemode=survival] if data entity @s {SelectedItem:{tag:{wpstick:comet}}} if score @s wpstick matches 1 run scoreboard players set @s tick 99
 
 # notify
 execute as @a[gamemode=creative] if data entity @s {SelectedItem:{tag:{wpstick:comet}}} if score @s wpstick matches 1 run msg @s [warn] your creative mode!
+
+# replace item
+execute as @a[gamemode=survival] if data entity @s {SelectedItem:{tag:{wpstick:comet}}} if score @s wpstick matches 1 run replaceitem entity @s weapon air
 
 # scoreboard actions
 scoreboard players set @a wpstick 0

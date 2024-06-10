@@ -4,7 +4,7 @@
 execute as @a at @s if score @s random matches 4 run summon minecraft:item ~ ~5 ~2 {Item:{id:"minecraft:glass_bottle",Count:1b}}
 execute as @a at @s if score @s random matches 4 run summon minecraft:item ~-1.5 ~5 ~1.5 {Item:{id:"minecraft:cauldron",Count:1b}}
 execute as @a at @s if score @s random matches 4 run summon minecraft:item ~-2 ~5 ~ {Item:{id:"minecraft:ghast_tear",Count:1b}}
-execute as @a at @s if score @s random matches 4 run summon minecraft:item ~-1.5 ~5 ~-1.5 {Item:{id:"minecraft:blaze_powder",Count:1b}}
+execute as @a at @s if score @s random matches 4 run summon minecraft:item ~-1.5 ~5 ~-1.5 {Item:{id:"minecraft:dragon_breath",Count:1b}}
 execute as @a at @s if score @s random matches 4 run summon minecraft:item ~ ~5 ~-2 {Item:{id:"minecraft:magma_cream",Count:1b}}
 execute as @a at @s if score @s random matches 4 run summon minecraft:item ~1.5 ~5 ~-1.5 {Item:{id:"minecraft:glistering_melon_slice",Count:1b}}
 execute as @a at @s if score @s random matches 4 run summon minecraft:item ~2 ~5 ~ {Item:{id:"minecraft:golden_carrot",Count:1b}}
