@@ -46,6 +46,11 @@ execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matc
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 41 run scoreboard players set @s random 41
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 42 run scoreboard players set @s random 42
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 43 run scoreboard players set @s random 43
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 44 run scoreboard players set @s random 44
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 45 run scoreboard players set @s random 45
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 46 run scoreboard players set @s random 46
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 47 run scoreboard players set @s random 47
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 48 run scoreboard players set @s random 48
 
 # go to random actions
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 0 run function comet:random/0
@@ -92,6 +97,11 @@ execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random ma
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 41 run function comet:random/41
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 42 run function comet:random/42
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 43 run function comet:random/43
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 44 run function comet:random/44
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 45 run function comet:random/45
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 46 run function comet:random/46
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 47 run function comet:random/47
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 48 run function comet:random/48
 
 # tick reset
 execute as @a if entity @s[gamemode=survival,scores={wpstick=1},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:1}}}] run scoreboard players set @s tick 99
@@ -106,5 +116,5 @@ execute as @a if entity @s[gamemode=survival,scores={wpstick=1},nbt={SelectedIte
 scoreboard players set @a wpstick 0
 scoreboard players add @a tick 1
 scoreboard players set @a random 99
-scoreboard players set @a dummy 44
+scoreboard players set @a dummy 49
 scoreboard players add @a startdelay 1
