@@ -1,7 +1,7 @@
 # enchant kit
 
-# experience bottles
-execute as @a at @s if score @s random matches 0 run summon minecraft:experience_bottle ~ ~5 ~2
+# experience bottles and enchant table
+execute as @a at @s if score @s random matches 0 run summon minecraft:item ~ ~5 ~2 {Item:{id:"minecraft:enchanting_table",Count:1b}}
 execute as @a at @s if score @s random matches 0 run summon minecraft:experience_bottle ~-1.5 ~5 ~1.5
 execute as @a at @s if score @s random matches 0 run summon minecraft:experience_bottle ~-2 ~5 ~
 execute as @a at @s if score @s random matches 0 run summon minecraft:experience_bottle ~-1.5 ~5 ~-1.5

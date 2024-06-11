@@ -37,6 +37,10 @@ execute as @a[gamemode=survival] if score @s tick matches 29 run scoreboard play
 execute as @a[gamemode=survival] if score @s tick matches 30 run scoreboard players set @s random 30
 execute as @a[gamemode=survival] if score @s tick matches 31 run scoreboard players set @s random 31
 execute as @a[gamemode=survival] if score @s tick matches 32 run scoreboard players set @s random 32
+execute as @a[gamemode=survival] if score @s tick matches 33 run scoreboard players set @s random 33
+execute as @a[gamemode=survival] if score @s tick matches 34 run scoreboard players set @s random 34
+execute as @a[gamemode=survival] if score @s tick matches 35 run scoreboard players set @s random 35
+execute as @a[gamemode=survival] if score @s tick matches 36 run scoreboard players set @s random 36
 
 execute as @a[gamemode=survival] if score @s random matches 0 run function comet:random/0
 execute as @a[gamemode=survival] if score @s random matches 1 run function comet:random/1
@@ -71,7 +75,10 @@ execute as @a[gamemode=survival] if score @s random matches 29 run function come
 execute as @a[gamemode=survival] if score @s random matches 30 run function comet:random/30
 execute as @a[gamemode=survival] if score @s random matches 31 run function comet:random/31
 execute as @a[gamemode=survival] if score @s random matches 32 run function comet:random/32
-
+execute as @a[gamemode=survival] if score @s random matches 33 run function comet:random/33
+execute as @a[gamemode=survival] if score @s random matches 34 run function comet:random/34
+execute as @a[gamemode=survival] if score @s random matches 35 run function comet:random/35
+execute as @a[gamemode=survival] if score @s random matches 36 run function comet:random/36
 
 # tick reset
 execute as @a if entity @s[gamemode=survival,scores={wpstick=1},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:1}}}] run scoreboard players set @s tick 99
