@@ -1,10 +1,19 @@
-# elytra
+# powerful fishing rod
 
-# elytra
-execute as @a at @s[y_rotation=-45..45] if score @s random matches 9 run summon minecraft:item ~ ~ ~2 {Item:{id:"minecraft:elytra",Count:1b,tag:{display:{Lore:['{"text":"修復不可","color":"aqua","italic":false}']},RepairCost:999,Damage:428}}}
-execute as @a at @s[y_rotation=45..135] if score @s random matches 9 run summon minecraft:item ~-2 ~ ~ {Item:{id:"minecraft:elytra",Count:1b,tag:{display:{Lore:['{"text":"修復不可","color":"aqua","italic":false}']},RepairCost:999,Damage:428}}}
-execute as @a at @s[y_rotation=135..225] if score @s random matches 9 run summon minecraft:item ~ ~ ~-2 {Item:{id:"minecraft:elytra",Count:1b,tag:{display:{Lore:['{"text":"修復不可","color":"aqua","italic":false}']},RepairCost:999,Damage:428}}}
-execute as @a at @s[y_rotation=225..315] if score @s random matches 9 run summon minecraft:item ~2 ~ ~ {Item:{id:"minecraft:elytra",Count:1b,tag:{display:{Lore:['{"text":"修復不可","color":"aqua","italic":false}']},RepairCost:999,Damage:428}}}
+# rod
+execute as @a at @s[y_rotation=-45..45] if score @s random matches 9 run summon minecraft:item ~ ~ ~2 {Item:{id:"minecraft:fishing_rod",Count:1b,tag:{Damage:44,Enchantments:[{id:"minecraft:luck_of_the_sea",lvl:5s},{id:"minecraft:lure",lvl:3s}]}}}
+execute as @a at @s[y_rotation=45..135] if score @s random matches 9 run summon minecraft:item ~-2 ~ ~ {Item:{id:"minecraft:fishing_rod",Count:1b,tag:{Damage:44,Enchantments:[{id:"minecraft:luck_of_the_sea",lvl:5s},{id:"minecraft:lure",lvl:3s}]}}}
+execute as @a at @s[y_rotation=135..225] if score @s random matches 9 run summon minecraft:item ~ ~ ~-2 {Item:{id:"minecraft:fishing_rod",Count:1b,tag:{Damage:44,Enchantments:[{id:"minecraft:luck_of_the_sea",lvl:5s},{id:"minecraft:lure",lvl:3s}]}}}
+execute as @a at @s[y_rotation=225..315] if score @s random matches 9 run summon minecraft:item ~2 ~ ~ {Item:{id:"minecraft:fishing_rod",Count:1b,tag:{Damage:44,Enchantments:[{id:"minecraft:luck_of_the_sea",lvl:5s},{id:"minecraft:lure",lvl:3s}]}}}
 
-# firework rocket
-execute as @a at @s if score @s random matches 9 run summon minecraft:firework_rocket ~ ~1 ~ {LifeTime:1,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Flicker:0b,Trail:0b,Colors:[I;11250603]}],Flight:1}}}}
+# particle
+execute as @a at @s[y_rotation=-45..45] if score @s random matches 9 run particle minecraft:fishing ~ ~ ~2 0.5 1 0.5 0 20
+execute as @a at @s[y_rotation=45..135] if score @s random matches 9 run particle minecraft:fishing ~-2 ~ ~ 0.5 1 0.5 0 20
+execute as @a at @s[y_rotation=135..225] if score @s random matches 9 run particle minecraft:fishing ~ ~ ~-2 0.5 1 0.5 0 20
+execute as @a at @s[y_rotation=225..315] if score @s random matches 9 run particle minecraft:fishing ~2 ~ ~ 0.5 1 0.5 0 20
+
+# sound
+execute as @a at @s[y_rotation=-45..45] if score @s random matches 9 run playsound minecraft:entity.fishing_bobber.splash master @s ~ ~ ~2 0.5 2
+execute as @a at @s[y_rotation=45..135] if score @s random matches 9 run playsound minecraft:entity.fishing_bobber.splash master @s ~-2 ~ ~ 0.5 2
+execute as @a at @s[y_rotation=135..225] if score @s random matches 9 run playsound minecraft:entity.fishing_bobber.splash master @s ~ ~ ~-2 0.5 2
+execute as @a at @s[y_rotation=225..315] if score @s random matches 9 run playsound minecraft:entity.fishing_bobber.splash master @s ~2 ~ ~ 0.5 2

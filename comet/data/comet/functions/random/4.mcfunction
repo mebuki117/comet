@@ -12,4 +12,4 @@ execute as @a at @s if score @s random matches 4 run summon minecraft:item ~1.5 
 execute as @a at @s if score @s random matches 4 run summon minecraft:item ~ ~5 ~2 {Item:{id:"minecraft:fermented_spider_eye",Count:1b}}
 
 # firework rocket
-execute as @a at @s if score @s random matches 4 run summon minecraft:firework_rocket ~ ~1 ~ {LifeTime:1,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:0b,Trail:0b,Colors:[I;15435844,4408131]}],Flight:1}}}}
+execute as @a at @s if score @s random matches 4 run summon minecraft:firework_rocket ~ ~-0.1 ~ {LifeTime:1,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:0b,Trail:0b,Colors:[I;15435844,4408131]}],Flight:1}}}}
