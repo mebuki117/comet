@@ -1,1 +1,0 @@
-give @a minecraft:warped_fungus_on_a_stick{wpstick:comet,display:{Name:'[{"text":"AAA","color":"gold"}]',Lore:['[{"text":"BBB: CCC}]']},CustomModelData:1} 1
