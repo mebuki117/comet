@@ -56,6 +56,29 @@ execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matc
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 51 run scoreboard players set @s random 51
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 52 run scoreboard players set @s random 52
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 53 run scoreboard players set @s random 53
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 54 run scoreboard players set @s random 54
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 55 run scoreboard players set @s random 55
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 56 run scoreboard players set @s random 56
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 57 run scoreboard players set @s random 57
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 58 run scoreboard players set @s random 58
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 59 run scoreboard players set @s random 59
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 60 run scoreboard players set @s random 60
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 61 run scoreboard players set @s random 61
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 62 run scoreboard players set @s random 62
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 63 run scoreboard players set @s random 63
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 64 run scoreboard players set @s random 64
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 65 run scoreboard players set @s random 65
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 66 run scoreboard players set @s random 66
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 67 run scoreboard players set @s random 67
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 68 run scoreboard players set @s random 68
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 69 run scoreboard players set @s random 69
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 70 run scoreboard players set @s random 70
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 71 run scoreboard players set @s random 71
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 72 run scoreboard players set @s random 72
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 73 run scoreboard players set @s random 73
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 74 run scoreboard players set @s random 74
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 75 run scoreboard players set @s random 75
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s tick matches 76 run scoreboard players set @s random 76
 
 # go to random actions
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 0 run function comet:random/0
@@ -112,6 +135,29 @@ execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random ma
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 51 run function comet:random/51
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 52 run function comet:random/52
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 53 run function comet:random/53
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 54 run function comet:random/54
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 55 run function comet:random/55
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 56 run function comet:random/56
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 57 run function comet:random/57
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 58 run function comet:random/58
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 59 run function comet:random/59
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 60 run function comet:random/60
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 61 run function comet:random/61
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 62 run function comet:random/62
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 63 run function comet:random/63
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 64 run function comet:random/64
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 65 run function comet:random/65
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 66 run function comet:random/66
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 67 run function comet:random/67
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 68 run function comet:random/68
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 69 run function comet:random/69
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 70 run function comet:random/70
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 71 run function comet:random/71
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 72 run function comet:random/72
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 73 run function comet:random/73
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 74 run function comet:random/74
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 75 run function comet:random/75
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 76 run function comet:random/76
 
 # command only random action
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s random matches 999 run function comet:random/999
@@ -129,5 +175,5 @@ execute as @a if entity @s[gamemode=survival,scores={wpstick=1},nbt={SelectedIte
 scoreboard players set @a wpstick 0
 scoreboard players add @a tick 1
 scoreboard players set @a random 99
-scoreboard players set @a dummy 54
+scoreboard players set @a dummy 77
 scoreboard players add @a startdelay 1
