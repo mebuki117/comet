@@ -6,6 +6,10 @@
 
   "overrides": [
     {"predicate": {"custom_model_data":1}, "model": "minecraft:item/katana"},
-    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/katana"}
+    {"predicate": {"custom_model_data":2}, "model": "minecraft:item/katana"},
+    {"predicate": {"custom_model_data":3}, "model": "minecraft:item/katana_gold"},
+    {"predicate": {"custom_model_data":4}, "model": "minecraft:item/katana_gold"},
+    {"predicate": {"custom_model_data":5}, "model": "minecraft:item/katana_dia"},
+    {"predicate": {"custom_model_data":6}, "model": "minecraft:item/katana_dia"}
   ]
 }
