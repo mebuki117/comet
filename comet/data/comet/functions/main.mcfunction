@@ -177,3 +177,4 @@ scoreboard players add @a tick 1
 scoreboard players set @a random 99
 scoreboard players set @a dummy 77
 scoreboard players add @a startdelay 1
+scoreboard players set @a rndplayeraction 99
