@@ -1,4 +1,4 @@
-# knockback efficiency
+# efficiency pickaxe
 
 # wooden pickaxe
 execute as @a at @s at @s[y_rotation=-45..45] if score @s random matches 11 run summon minecraft:item ~ ~ ~2 {Item:{id:"minecraft:wooden_pickaxe",Count:1b,tag:{RepairCost:999,Damage:27,Enchantments:[{id:"minecraft:efficiency",lvl:9999s}]}}}

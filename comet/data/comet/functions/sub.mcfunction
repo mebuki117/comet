@@ -7,6 +7,7 @@ execute as @a if entity @s[gamemode=survival,scores={castick=1},nbt={SelectedIte
 execute as @a if entity @s[gamemode=survival,scores={castick=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:5}}}] run scoreboard players set @s subaction 5
 execute as @a if entity @s[gamemode=survival,scores={wpstick=1},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:5}}}] run scoreboard players set @s subaction 6
 execute as @a if entity @s[gamemode=survival,scores={wpstick=1},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:6}}}] run scoreboard players set @s subaction 7
+execute as @a if entity @s[gamemode=survival,scores={wpstick=1},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:7}}}] run scoreboard players set @s subaction 8
 
 # go to sub actions
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s subaction matches 0 run function comet:sub/0
@@ -17,6 +18,7 @@ execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s subaction
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s subaction matches 5 run function comet:sub/5
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s subaction matches 6 run function comet:sub/6
 execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s subaction matches 7 run function comet:sub/7
+execute as @a[gamemode=survival,scores={startdelay=100..}] if score @s subaction matches 8 run function comet:sub/8
 
 # scoreboard actions
 scoreboard players set @a subaction 99
