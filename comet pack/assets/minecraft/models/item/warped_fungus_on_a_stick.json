@@ -8,6 +8,8 @@
     {"predicate": {"custom_model_data":1}, "model": "minecraft:item/comet"},
     {"predicate": {"custom_model_data":2}, "model": "minecraft:item/bamboo_stage0"},
     {"predicate": {"custom_model_data":3}, "model": "minecraft:item/bamboo"},
-    {"predicate": {"custom_model_data":4}, "model": "minecraft:item/bamboo_inv"}
+    {"predicate": {"custom_model_data":4}, "model": "minecraft:item/bamboo_inv"},
+    {"predicate": {"custom_model_data":5}, "model": "minecraft:item/feather"},
+    {"predicate": {"custom_model_data":6}, "model": "minecraft:item/feather"}
   ]
 }
